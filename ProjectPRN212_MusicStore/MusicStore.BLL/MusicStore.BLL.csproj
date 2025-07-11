@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\MusicStore.DAL\MusicStore.DAL.csproj" />
   </ItemGroup>
 
 </Project>
