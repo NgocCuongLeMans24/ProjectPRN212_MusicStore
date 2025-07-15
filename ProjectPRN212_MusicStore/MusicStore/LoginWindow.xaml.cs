@@ -1,23 +1,7 @@
-﻿using Microsoft.Data.SqlClient;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.VisualBasic.ApplicationServices;
+﻿using Microsoft.IdentityModel.Tokens;
 using MusicStore.BLL.Services;
-using MusicStore.DAL;
-using MusicStore.DAL.Models;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace MusicStore
 {
@@ -51,7 +35,7 @@ namespace MusicStore
             } // TODO: phai thong bao sai cai gi: sai username hoac sai pass
             // account luc nay la 1 record nao do thuoc role 1,2,3 => check phan quyen
             Application.Current.Properties["LoggedInUser"] = user;
-            if (user.RoleId == 1 )
+            if (user.RoleId == 1)
             {
                 AdminHomeWindow ah = new();
                 ah.currentAccount = user;
