@@ -40,8 +40,8 @@ namespace MusicStore
 
         private void RevenueReportButton_Click(object sender, RoutedEventArgs e)
         {
-            //RevenueReportWindow r = new();
-            //r.Show();
+            RevenueReportWindow r = new();
+            r.Show();
             this.Close();
         }
     }

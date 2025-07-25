@@ -10,8 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GenAILLMTests\GenAILLMTests.csproj" />
-    <ProjectReference Include="..\GenAILLM\GenAILLM.csproj" />
     <ProjectReference Include="..\MusicStore.BLL\MusicStore.BLL.csproj" />
     <ProjectReference Include="..\MusicStore.DAL\MusicStore.DAL.csproj" />
   </ItemGroup>
